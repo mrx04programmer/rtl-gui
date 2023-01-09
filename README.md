@@ -38,3 +38,17 @@ Si deseas probar RTL , sigue los siguientes pasos:
 1. Clona el repositorio de Github, para esto ve a la consola de tu preferencia y ejecuta `git clone https://github.com/mrx04programmer/rtl-gui`
 2. Una vez descargado, entras a el con el comando `cd rtl-gui`
 3. Por ultimo crea el servidor local con `php -S localhost:8080`
+
+<hr style="background-color: lightblue">
+
+<h6>Demo</h6>
+* Interfaz principal
+![image](https://user-images.githubusercontent.com/46001898/211378982-e6aa6f34-cafc-4c14-ac35-98b25d09c879.png)
+
+* Interfaz del Scanner
+![image](https://user-images.githubusercontent.com/46001898/211379188-31cf8ad3-b726-40c9-b35c-f870d70ccf19.png)
+
+* Interfaz del Explotador
+![image](https://user-images.githubusercontent.com/46001898/211379314-6ad56af0-b6e9-422a-924f-bd286bfd322f.png)
+
+<h6>Nota: El modulo de Obtener credenciales al conectarse esta en beta y el proxy solo funciona si la ip es externa a tu network local.</h6>
