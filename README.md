@@ -20,9 +20,12 @@ Si deseas probar RTL , sigue los siguientes pasos:
 1. Debes configurar la variable de entorno para PHP, para ello :
     * Abre la aplicación `Variables de entorno` o similar.
     * Seleccionas el texto `Path` de arriba si deseas que solo sea para un usuario en especifico o el de abajo para todos y le das `Editar`:
+
     ![img](https://www.netveloper.com/cw/jiujj0avruoabovhsssn5218/variables-de-entorno.jpg)
+    
     * Una vez que seleccionaste el boton `Editar` aparecera un menú como el siguiente
     ![img2](https://www.netveloper.com/cw/jiujj0avruoabovhsssn5218/editar-variables-de-entorno.jpg)
+    
     * Seleccionas en `Nuevo` y colocas la ruta del ejecutable de php, en este caso se encuentra en mi servidor de `XAMPP`
 2. Clona el repositorio de Github, para esto ve a la consola de tu preferencia y ejecuta `git clone https://github.com/mrx04programmer/rtl-gui`
 3. Una vez descargado, entras a el con el comando `cd rtl-gui`
