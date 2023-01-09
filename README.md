@@ -52,3 +52,8 @@ Si deseas probar RTL , sigue los siguientes pasos:
 ![image](https://user-images.githubusercontent.com/46001898/211379314-6ad56af0-b6e9-422a-924f-bd286bfd322f.png)
 
 <h6>Nota: El modulo de Obtener credenciales al conectarse esta en beta y el proxy solo funciona si la ip es externa a tu network local.</h6>
+
+<div align="center">
+<img src="https://img.shields.io/badge/status-stable-t?style=for-the-badge&color=darkgreen&logoColor=darkgreen&labelColor=black"><br>
+<img src="https://img.shields.io/badge/tested-ArchLinux-t?style=for-the-badge&color=informational&logoColor=darkgreen&labelColor=black">
+</div>
