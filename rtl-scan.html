@@ -189,21 +189,36 @@
                 </div> -->
             </nav>
             <!-- Navbar End -->
-
-
-            <!-- 404 Start -->
-            <div class="container-fluid pt-4 px-4">
-                <div class="row vh-100 bg-secondary rounded align-items-center justify-content-center mx-0">
-                    <div class="col-md-6 text-center p-4">
-                        <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
-                        <h1 class="display-1 fw-bold">404</h1>
-                        <h1 class="mb-4">Página no encontrada</h1>
-                        <p class="mb-4">Lo siento, al parecer no tienes instalado rtl exploit en tu sistema operativo, instalalo e intenta realizar el ataque de nuevo</p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="index.html">Volver</a>
+            <div id="navend">
+            <div class="col-sm-12 col-xl-6 m-5" >
+                <form class="bg-secondary rounded h-100 p-4" action="modules/scan.php" method="post">
+                    <h6 class="mb-4">RTL Scanner</h6>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Host o Dispositivo Objetivo"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2" id="ipscape" name="ipscape">
+                        <span class="input-group-text" id="ipscape" name="ipscape">ej: 127.0.0.1</span>
                     </div>
-                </div>
+                    <!--<label for="basic-url" class="form-label">Llena estos </label>-->
+                    <!--<div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    </div>-->
+                    
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="floatingSelect"
+                            aria-label="Floating label select example" name="tipoHost">
+                            <option selected>Tipo de Host</option>
+                            <option value="url">URL o Dominio</option>
+                            <option value="ipv4">IPv4</option>
+                            <option value="ipv6">IPv6</option>
+                        </select>
+                        <label for="floatingSelect">Tipo de Ataque</label>
+                    </div>
+                    <button type="submit" class="btn btn-warning rounded-pill m-2"><a>Escanear</a></button>
+                </form>
             </div>
-            <!-- 404 End -->
+        </div>
+        
 
 
             <!-- Footer Start -->
