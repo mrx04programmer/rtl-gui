@@ -43,6 +43,7 @@ Si deseas probar RTL , sigue los siguientes pasos:
 
 <h6>Demo</h6>
 * Interfaz principal
+
 ![image](https://user-images.githubusercontent.com/46001898/211378982-e6aa6f34-cafc-4c14-ac35-98b25d09c879.png)
 
 * Interfaz del Scanner
